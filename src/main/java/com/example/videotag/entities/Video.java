@@ -4,14 +4,16 @@ import java.io.File;
 import java.util.List;
 
 import javax.persistence.Entity;
-import javax.persistence.JoinTable;
+import javax.persistence.OneToMany;
 
 import jpaentitor.entities.AbstractEntity;
 
 @Entity
 public class Video extends AbstractEntity {
 	private File file;
+	@OneToMany
 	private List<Sequence> sequenceList;
+	@OneToMany
 	private List<AbstractTag> tagList;
 	
 	public Video(File file, List<Sequence> sequenceList, List<AbstractTag> tagList) {

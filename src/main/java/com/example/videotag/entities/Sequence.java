@@ -3,13 +3,15 @@ package com.example.videotag.entities;
 import java.util.List;
 
 import javax.persistence.Entity;
-import javax.persistence.JoinTable;
-
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import jpaentitor.entities.AbstractEntity;
 
 @Entity
 public class Sequence extends AbstractEntity {
+	@ManyToOne
 	private Video video;
+	@ManyToMany
 	private List<AbstractTag> tagList;
 	
 	public Sequence(Video video, List<AbstractTag> tagList) {
