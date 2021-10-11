@@ -2,9 +2,13 @@ package com.example.videotag.entities;
 
 import java.util.List;
 
-import com.example.videotag.domain.VideoTagDomainClass;
+import javax.persistence.Entity;
+import javax.persistence.JoinTable;
 
-public class Sequence extends VideoTagDomainClass {
+import jpaentitor.entities.AbstractEntity;
+
+@Entity
+public class Sequence extends AbstractEntity {
 	private Video video;
 	private List<AbstractTag> tagList;
 	
