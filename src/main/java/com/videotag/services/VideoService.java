@@ -1,6 +1,6 @@
-package com.example.videotag.services;
+package com.videotag.services;
 
-import com.example.videotag.entities.Video;
+import com.videotag.entities.Video;
 
 import crudity.services.CrudService;
 

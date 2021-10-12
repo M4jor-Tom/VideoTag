@@ -1,11 +1,11 @@
-package com.example.videotag.services.implementations;
+package com.videotag.services.implementations;
 
 import java.util.List;
 import java.util.NoSuchElementException;
 
-import com.example.videotag.entities.Video;
-import com.example.videotag.repositories.VideoRepository;
-import com.example.videotag.services.VideoService;
+import com.videotag.entities.Video;
+import com.videotag.repositories.VideoRepository;
+import com.videotag.services.VideoService;
 
 public class VideoServiceImpl implements VideoService {
 

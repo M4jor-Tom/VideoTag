@@ -1,13 +1,13 @@
-package com.example.videotag.services.implementations;
+package com.videotag.services.implementations;
 
 import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.example.videotag.entities.Sequence;
-import com.example.videotag.repositories.SequenceRepository;
-import com.example.videotag.services.SequenceService;
+import com.videotag.entities.Sequence;
+import com.videotag.repositories.SequenceRepository;
+import com.videotag.services.SequenceService;
 
 public class SequenceServiceImpl implements SequenceService {
 

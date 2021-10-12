@@ -3,8 +3,8 @@ package com.example.videotag.test.entities;
 import java.util.List;
 
 import com.example.videotag.*;
-import com.example.videotag.entities.AbstractTag;
-import com.example.videotag.entities.Sequence;
+import com.videotag.entities.AbstractTag;
+import com.videotag.entities.Sequence;
 
 public class TestFinalTag extends AbstractTag {
 

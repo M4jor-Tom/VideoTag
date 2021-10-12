@@ -1,13 +1,13 @@
-package com.example.videotag.services.implementations;
+package com.videotag.services.implementations;
 
 import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.example.videotag.entities.AbstractTag;
-import com.example.videotag.repositories.TagRepository;
-import com.example.videotag.services.TagService;
+import com.videotag.entities.AbstractTag;
+import com.videotag.repositories.TagRepository;
+import com.videotag.services.TagService;
 
 public class TagServiceImpl implements TagService {
 	

@@ -1,4 +1,4 @@
-package com.example.videotag.entities;
+package com.videotag.entities;
 
 import java.io.File;
 import java.util.List;
