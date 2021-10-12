@@ -3,9 +3,9 @@ package com.videotag.repositories;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.videotag.entities.Sequence;
+import com.videotag.entities.Compilation;
 
 @Repository
-public interface SequenceRepository extends CrudRepository<Sequence, Integer> {
+public interface CompilationRepository extends CrudRepository<Compilation, Integer> {
 
 }

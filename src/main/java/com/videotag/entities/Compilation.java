@@ -8,13 +8,13 @@ import javax.persistence.ManyToOne;
 import jpaentitor.entities.AbstractEntity;
 
 @Entity
-public class Sequence extends AbstractEntity {
+public class Compilation extends AbstractEntity {
 	@ManyToOne
 	private Video video;
 	@ManyToMany
 	private List<AbstractTag> tagList;
 	
-	public Sequence(Video video, List<AbstractTag> tagList) {
+	public Compilation(Video video, List<AbstractTag> tagList) {
 		super();
 		setVideo(video);
 		setTagList(tagList);

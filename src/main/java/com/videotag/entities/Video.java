@@ -12,11 +12,11 @@ import jpaentitor.entities.AbstractEntity;
 public class Video extends AbstractEntity {
 	private File file;
 	@OneToMany
-	private List<Sequence> sequenceList;
+	private List<Compilation> sequenceList;
 	@OneToMany
 	private List<AbstractTag> tagList;
 	
-	public Video(File file, List<Sequence> sequenceList, List<AbstractTag> tagList) {
+	public Video(File file, List<Compilation> sequenceList, List<AbstractTag> tagList) {
 		super();
 		setFile(file);
 		setSequenceList(sequenceList);
@@ -31,11 +31,11 @@ public class Video extends AbstractEntity {
 		this.file = file;
 	}
 	
-	public List<Sequence> getSequenceList() {
+	public List<Compilation> getSequenceList() {
 		return sequenceList;
 	}
 	
-	private void setSequenceList(List<Sequence> sequenceList) {
+	private void setSequenceList(List<Compilation> sequenceList) {
 		this.sequenceList = sequenceList;
 	}
 	
